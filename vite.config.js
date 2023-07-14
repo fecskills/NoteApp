@@ -8,7 +8,7 @@ export default defineConfig({
   plugins: [
     vue(),
   ],
-  base: './NoteMaker',
+  base: './NoteApp/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
