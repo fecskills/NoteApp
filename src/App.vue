@@ -41,7 +41,26 @@ interface INote {
   content: string
 }
 
-const notes = reactive([]) as INote[]
+const notes = reactive([
+  {id: 1,
+  color: "pink",
+  date: new Date(),
+  excerpt: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+  content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+},
+{id: 2,
+  color: "skyblue",
+  date: new Date(),
+  excerpt: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+  content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+},
+{id: 3,
+  color: "orange",
+  date: new Date(),
+  excerpt: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+  content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+},
+]) as INote[]
 
 </script>
 <template>
